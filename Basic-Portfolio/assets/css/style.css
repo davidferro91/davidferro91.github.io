@@ -1,0 +1,280 @@
+html, body {
+    height:100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+header {
+    width: 960px;
+    height:94px;
+    background: #ffffff;
+    margin:20px auto 0px 175px;
+    
+}
+
+#headerBox1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    width:auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#headerBox2 {
+    float:right;
+    width:360px;
+    height:94px;
+
+}
+
+#headerLink1 {
+    border-style:solid;
+    border-color:#cccccc;
+    border-width: 0px 3px 0px 0px;
+    padding:0px 20px 0px 20px;
+    margin: 50px 0px 20px 0px;
+    float:right;
+}
+
+#headerLink1 a {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration:none;
+    font-size:20px;
+}
+
+#headerLink2 {
+    border-style:solid;
+    border-color:#cccccc;
+    border-width: 0px 3px 0px 0px;
+    padding:0px 20px 0px 20px;
+    margin: 50px 0px 20px 0px;
+    float:right;
+}
+
+#headerLink2 a {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration:none;
+    font-size:20px;
+    }
+
+#headerLink3 {
+    padding:0px 0px 0px 20px;
+    margin: 50px 0px 20px 0px;
+    float:right;
+}
+
+#headerLink3 a {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration:none;
+    font-size:20px;
+}
+
+#mainContent {
+    width: auto;
+    background-image: url("oriental.png");
+    border-style:solid;
+    border-width: 3px 0px 0px 0px;
+    border-color: #cccccc;
+    padding-bottom: 10%;
+}
+
+.mainContentBox {
+    width:910px;
+    background-color: #ffffff;
+    margin: 10px auto 20px 175px;
+    padding:20px;
+    border-color: #dddddd;
+    border-width:5px;
+    border-style:solid;
+}
+
+h2 {
+    width:100%;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 3px 0px;
+}
+
+#headshot {
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+}
+
+.bioText {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.contactText {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.nameEmailInput {
+    width:100%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size:16px;
+}
+
+.messageInput {
+    width:100%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+.submit {
+    width:100px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding:10px;
+    font-size:20px;
+}
+
+.projects{
+    position:relative;
+    height:900px;
+}
+
+.box {
+    position:absolute;
+}
+
+.Text {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:20px;
+    padding:20px;
+    text-decoration: none;
+}
+
+#textBoxHangman {
+    width:250px;
+    height:auto;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding:20px 0px;
+    position: absolute;
+    top:155px;
+    z-index:2;
+    opacity:0.9;
+}
+
+#hangmanImg{
+    position:absolute;
+    z-index:1;
+    top:0px;
+}
+
+#textBoxRPG {
+    width:250px;
+    height:auto;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding:20px 0px;
+    position: absolute;
+    top:155px;
+    left: 350px;
+    z-index:2;
+    opacity:0.9;
+}
+
+#RPGImg{
+    position:absolute;
+    left:350px;
+    top:0px;
+    z-index:1;
+}
+
+#textBoxTrivia {
+    width:250px;
+    height:auto;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding:20px 0px;
+    position: absolute;
+    top:445px;
+    z-index:2;
+    opacity:0.9;
+}
+
+#triviaImg{
+    position:absolute;
+    top:290px;
+    z-index:1;
+}
+
+#textBoxWidget {
+    width:250px;
+    height:auto;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding:20px 0px;
+    position: absolute;
+    top:445px;
+    left:350px;
+    z-index:2;
+    opacity:0.9;
+}
+
+#widgetImg{
+    position:absolute;
+    top:290px;
+    left:350px;
+    z-index:1;
+}
+
+#textBoxRock {
+    width:250px;
+    height:auto;
+    background-color: #4aaaa5;
+    text-align:center;
+    padding:20px 0px;
+    position: absolute;
+    top:735px;
+    z-index:2;
+    opacity:0.9;
+}
+
+#rockImg {
+    position:absolute;
+    top:580px;
+    z-index:1;
+}
+
+.footer {
+    width:auto;
+    flex-shrink: 0;
+    font-size: 20px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #666666;
+    border-style: solid;
+    border-width: 8px 0px 0px 0px;
+    border-color: #4aaaa5;
+    text-align: center;
+    text-emphasis: bold;
+}
+
+
+
