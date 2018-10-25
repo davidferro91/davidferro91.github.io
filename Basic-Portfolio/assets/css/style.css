@@ -15,7 +15,7 @@ header {
     width: 960px;
     height:94px;
     background: #ffffff;
-    margin:20px auto 0px 175px;
+    margin:20px auto 0px auto;
     
 }
 
@@ -93,7 +93,7 @@ header {
 .mainContentBox {
     width:910px;
     background-color: #ffffff;
-    margin: 10px auto 20px 175px;
+    margin: 10px auto 20px auto;
     padding:20px;
     border-color: #dddddd;
     border-width:5px;
